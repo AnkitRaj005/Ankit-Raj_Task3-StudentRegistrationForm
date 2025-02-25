@@ -69,9 +69,9 @@ const StudentRegistrationForm = () => {
               <label htmlFor="course">Course:</label>
               <Field as="select" id="course" name="course">
                 <option value="">Select a course</option>
-                <option value="math">Math</option>
-                <option value="science">Science</option>
-                <option value="history">History</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Machine Learning">Machine Learning</option>
               </Field>
               <ErrorMessage name="course" component="div" className="error" />
             </div>
